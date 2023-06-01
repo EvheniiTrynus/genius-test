@@ -1,7 +1,14 @@
-.box {
+* {
   box-sizing: border-box;
-  display: inline-block;
-  width: 100px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  flex-basis: 100px;
   height: 100px;
   background-color: burlywood;
   padding: 16px 42px 16px 42px;
@@ -9,6 +16,10 @@
   margin: 10px;
 }
 
-.box:nth-child(2) {
-  background-color: gold;
+.item:nth-child(2) {
+  flex-grow: 1;
+}
+
+.item:nth-child(3) {
+  flex-grow: 4;
 }
