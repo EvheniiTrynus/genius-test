@@ -285,6 +285,26 @@ ul {
   font-size: 14px;
 }
 
+/* Carousel */
+
+.carousel-botton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--color-primari-dark);
+  background-color: transparent;
+  border: 1px solid var(--color-primari-dark);
+  cursor: pointer;
+}
+
+.carousel-botton:hover {
+  background-color: var(--color-primari-dark);
+  fill: var(--color-primari-light);
+}
+
 /* Contact section */
 .contact-title {
   margin-bottom: 16px;
@@ -300,6 +320,14 @@ ul {
 
 .adress-link:hover {
   color: var(--color-brand-normal);
+}
+
+.address-icon {
+  fill: var(--color-primari-light);
+}
+
+.address-icon:hover {
+  fill: var(--color-brand-normal);
 }
 
 .address-copyright {
